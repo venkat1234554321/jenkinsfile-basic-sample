@@ -12,6 +12,7 @@ pipeline {
             steps {
                 sh '''#!/bin/bash
                     ls -ltrt
+                    pwd
                 '''
             }
          }
