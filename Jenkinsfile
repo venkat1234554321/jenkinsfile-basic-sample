@@ -11,9 +11,7 @@ pipeline {
             agent any
             steps {
                 sh '''#!/bin/bash
-            
                     ls -ltrt
-                    pwd
                 '''
             }
          }
